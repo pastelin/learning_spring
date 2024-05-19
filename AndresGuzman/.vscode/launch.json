@@ -1,0 +1,24 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Spring Boot-BackendCartappApplication<backend-cartapp>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.juan.backend.cartapp.backendcartapp.BackendCartappApplication",
+			"projectName": "backend-cartapp",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		},
+		{
+			"type": "java",
+			"name": "Spring Boot-BackendUserappApplication<backend-userapp>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.juan.backend.userapp.backenduserapp.BackendUserappApplication",
+			"projectName": "backend-userapp",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		}
+	]
+}
