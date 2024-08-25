@@ -1,0 +1,25 @@
+/* Populate tables */
+INSERT INTO persons (name, lastname, programming_language) VALUES('Juan', 'Guzman', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Linus', 'Torvalds', 'js');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Jane', 'Doe', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Rasmus', 'Lerdorf', 'C++');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Erich', 'Gamma', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Richard', 'Helm', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Ralph', 'Johnson', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('John', 'Vlissides', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('James', 'Gosling', 'js');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Bruce', 'Lee', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Johnny', 'Doe', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('John', 'Roe', 'C++');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Jane', 'Roe', 'js');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Richard', 'Doe', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Janie', 'Doe', 'js');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Phillip', 'Webb', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Stephane', 'Nicoll', 'java');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Sam', 'Brannen', 'C++');  
+INSERT INTO persons (name, lastname, programming_language) VALUES('Juergen', 'Hoeller', 'java'); 
+INSERT INTO persons (name, lastname, programming_language) VALUES('Janie', 'Roe', 'js');
+INSERT INTO persons (name, lastname, programming_language) VALUES('John', 'Smith', 'C++');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Joe', 'Bloggs', 'js');
+INSERT INTO persons (name, lastname, programming_language) VALUES('John', 'Stiles', 'C++');
+INSERT INTO persons (name, lastname, programming_language) VALUES('Richard', 'Roe', 'java');
