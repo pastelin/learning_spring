@@ -1,6 +1,7 @@
 package com.juan.curso.springboot.jpa.springboot_jpa.entities;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,10 +15,15 @@ public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
 	private String name;
 	private String lastname;
+
 	@Column(name = "programming_language")
 	private String programmingLanguage;
+
+	@Embedded
+	public Audit audit = new Audit();
 
 	public Person() {
 	}
@@ -69,9 +75,6 @@ public class Person {
 	@Override
 	public String toString() {
 		return "id=" + id + ", name=" + name + ", lastname=" + lastname + ", programmingLanguage="
-				+ programmingLanguage + "]";
+				+ programmingLanguage + "]" + ", createAt=" + audit.getCreateAt() + ", updateAt=" + audit.getUpdateAt();
 	}
-
-	
-
 }

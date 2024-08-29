@@ -29,7 +29,7 @@ public class SpringbootJpaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		subQueries();
+		update();
 	}
 
 	@Transactional(readOnly = true)
